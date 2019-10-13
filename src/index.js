@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './astes/index.css';
+import 'antd/dist/antd.css';
 import App from './10-11大作业/';
 import * as serviceWorker from './serviceWorker';
 

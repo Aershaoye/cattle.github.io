@@ -1,0 +1,41 @@
+.zrb-titel {
+  width: 1200px;
+  height: 25px;
+  background: red;
+  margin: auto;
+}
+
+.zrb-titel p {
+  font-size: 12px;
+  margin-left: 5px;
+  padding-top: 5px;
+}
+
+.zrb-tool {
+  width: 1200px;
+  margin: auto;
+}
+
+.zrb-a {
+  width: 250px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}
+
+/* 底部列表样式 */
+.zrb-list {
+  width: 1200px;
+  margin: auto;
+}
+
+/* 底部背景蓝色的样式 */
+.zrb-introduce {
+  width: 100%;
+  background: blue;
+  color: azure;
+}
+.zrb-introduce-2 {
+  width: 1200px;
+  margin: auto;
+}
