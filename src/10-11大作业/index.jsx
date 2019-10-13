@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-
+//顶部的顶部
+import Header2 from './components/header-top/index';
+//顶部
+import Header from './components/top-bottom/index';
+//身体部分
+import Main from './components/main/index';
 //引入底部
 import Footer from './components/footer/footer';
 
+//底部input
+import Input from './components/common/input';
 //底部工具部分的数据
 const data = [
   {
@@ -122,11 +129,14 @@ const about = [
   }
 ];
 
-
 export default class Index extends Component {
   render() {
     return (
       <div>
+        <Header2 />
+        <Header />
+        <Main />
+        <Input />
         <Footer data={data} list={list} about={about} />
       </div>
     );

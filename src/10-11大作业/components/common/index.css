@@ -1,0 +1,21 @@
+.zrb-div {
+	position: relative;
+	margin: 40px 380px 29px 380px;
+}
+
+.zrb-input {
+	width: 500px;
+	height: 30px;
+	border: 3px solid #FF0036;
+}
+
+.zrb-btn {
+	width: 80px;
+	height: 30px;
+	background: #FF0036;
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+	border: 0;
+	position: absolute;
+}
