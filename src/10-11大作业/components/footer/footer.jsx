@@ -1,9 +1,7 @@
 import React from 'react';
-import { Icon } from 'antd';
 //引入样式
 import './css/index.css';
 export default props => {
-  console.log(props.data);
   return (
     <React.Fragment>
       <div className="zrb-titel">
@@ -15,13 +13,16 @@ export default props => {
         {props.data.map((item, index) => {
           return (
             <a href={item.href || '#'} key={index} className="zrb-a">
-              <Icon type="pie-chart" width="1em" height="5em" />
-              <span>{item.label || '-·-'}</span>
+              <img src={item.src} alt="" />
+              <p style={{ fontSize: '20px', margin: '-50px 0px 0px 66px' }}>
+                {item.label || '-·-'}
+              </p>
+              <p>{item.text || '-·-'}</p>
             </a>
           );
         })}
       </div>
-      <div className="zrb-list flex">
+      <div className="zrb-list flex flex-between">
         <img
           src="//img.alicdn.com/tfs/TB1bFfkNFXXXXb5XFXXXXXXXXXX-120-180.png"
           alt=""
@@ -50,7 +51,7 @@ export default props => {
         <div className="zrb-introduce-2">
           {props.about.map((item, index) => {
             return (
-              <ul key={index} className="flex">
+              <ul key={index} className="zrb-introduce-3 flex">
                 <li>{item.one}</li>
                 <li>{item.two}</li>
                 <li>{item.three}</li>

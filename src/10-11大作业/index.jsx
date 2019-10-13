@@ -7,20 +7,27 @@ import Footer from './components/footer/footer';
 const data = [
   {
     href: '#',
+    src: require('./components/footer/img/1.jpg'),
     label: '天猫直送·预约配送',
     text: '大家电提前预约，准时到家'
   },
   {
     href: '#',
-    label: '大家电搬货上楼，直送到家'
+    label: '送货上门',
+    src: require('./components/footer/img/2.jpg'),
+    text: '大家电搬货上楼，直送到家'
   },
   {
     href: '#',
-    label: '无需电话申请，坐等上门安装'
+    label: '预约安装',
+    src: require('./components/footer/img/3.jpg'),
+    text: '无需电话申请，坐等上门安装'
   },
   {
     href: '#',
-    label: '质量问题。365天包换'
+    label: '只换不修',
+    src: require('./components/footer/img/4.jpg'),
+    text: '质量问题。365天包换'
   }
 ];
 
