@@ -122,6 +122,7 @@ const about = [
   }
 ];
 
+
 export default class Index extends Component {
   render() {
     return (
