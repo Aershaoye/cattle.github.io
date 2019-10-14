@@ -40,6 +40,12 @@
   margin: auto;
 }
 
+.zrb-list-2 {
+  width: 180px;
+  height: 83px;
+  margin-top: -90px;
+}
+
 /* 底部背景蓝色的样式 */
 .zrb-introduce {
   width: 100%;

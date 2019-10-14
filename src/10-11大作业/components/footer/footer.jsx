@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'antd';
 //引入样式
 import './css/index.css';
 export default props => {
@@ -6,13 +7,17 @@ export default props => {
     <React.Fragment>
       <div className="zrb-titel">
         <p>
-          喵~在此反馈您的意见和建议吧,<a href="#">立刻反馈</a>
+          <Icon type="heart" theme="twoTone" twoToneColor="#eb2f96" />
+          喵~在此反馈您的意见和建议吧,
+          <a href="###" style={{ color: '#0061C4' }}>
+            立刻反馈
+          </a>
         </p>
       </div>
       <div className="zrb-tool flex flex-between">
         {props.data.map((item, index) => {
           return (
-            <a href={item.href || '#'} key={index} className="zrb-a">
+            <a href="#" key={index} className="zrb-a">
               <img src={item.src} alt="" />
               <p style={{ fontSize: '20px', margin: '-50px 0px 0px 66px' }}>
                 {item.label || '-·-'}
@@ -29,8 +34,8 @@ export default props => {
         />
         {props.list.map((item, index) => {
           return (
-            <ul key={index}>
-              <li>{item.list2}</li>
+            <ul key={index} className="zrb-list-2">
+              <li style={{ fontSize: '20px' }}>{item.list2}</li>
               <li>{item.list3}</li>
               <li>{item.list4}</li>
               <li>{item.list5}</li>
@@ -39,8 +44,8 @@ export default props => {
             </ul>
           );
         })}
-        <ul>
-          <li>手机电器城</li>
+        <ul className="zrb-list-2">
+          <li style={{ fontSize: '20px' }}>手机电器城</li>
           <img
             src="//img.alicdn.com/tps/i1/T1N64NFrxcXXb.IvUG-116-112.png"
             alt=""

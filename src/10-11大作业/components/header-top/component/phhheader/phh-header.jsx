@@ -5,7 +5,7 @@ export default () => {
     <React.Fragment>
       <div className="phh-header">
         <div className="flex">
-          <ul className="flex-one">
+          <ul className="flex flex-one">
             <li>
               <img className="img" src={require('../../img/首页.png')} alt="" />
             </li>
@@ -14,7 +14,7 @@ export default () => {
             <li className="li-1">请登录</li>
             <li className="li-1">免费注册</li>
           </ul>
-          <ul className="flex-two">
+          <ul className="flex flex-two">
             <li className="li-1">我的淘宝</li>
             <li className="img1"></li>
             <li>

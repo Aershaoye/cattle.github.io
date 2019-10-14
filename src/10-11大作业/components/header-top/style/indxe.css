@@ -1,16 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .phh-header {
   width: 100%;
   background: #f2f2f2;
-}
-
-.flex-one {
-  display: flex;
-  margin-left: 77px;
-}
-
-.flex-two {
-  margin-left: 315px;
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .img {
@@ -94,11 +91,6 @@ ul li {
 .li-2 {
   color: #CCCCCC;
   padding: 0px 10px 0px 10px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 .btn-div {
